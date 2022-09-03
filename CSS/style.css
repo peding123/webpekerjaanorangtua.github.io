@@ -80,6 +80,11 @@ p {
     background-color: #008BDE;
     margin: 10px;
     border-radius: 30px;
+    transition: transform .2s;
+}
+
+.col:hover {
+    transform: scale(1.1);
 }
 
 .button {
@@ -174,6 +179,11 @@ p {
     margin: 10px;
     padding: 10px;
     border-radius: 15px;
+    transition: transform .2s;
+}
+
+.col-teacher:hover {
+    transform: scale(1.1);
 }
 
 .col-teacher img {
@@ -189,6 +199,7 @@ p {
     color: #008BDE;
     font-weight: bold;
 }
+
 
 .activity h1 {
     text-align: center;
@@ -207,6 +218,11 @@ p {
     padding: 5px;
     margin-top: 20px;
     width: 300px;
+    transition: transform .2s;
+}
+
+.col-activity:hover {
+    transform: scale(1.1);
 }
 
 .col-activity img {
