@@ -127,7 +127,6 @@ p {
 .row-visi {
     padding: 30px;
     display: flex;
-    border: 2px solid rebeccapurple;
     background-color: #008BDE;
 }
 
