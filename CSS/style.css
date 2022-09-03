@@ -43,7 +43,7 @@ li a {
     padding: 20px 15px;
     text-decoration: none;
     text-align: center;
-    color: #0F1015;
+    color: #008BDE;
     background-color: white;
 }
 
@@ -109,12 +109,12 @@ p {
 
 .col-message h1 {
     margin-bottom: 15px;
-    color: #0F1015;
+    color: #008BDE;
 }
 
 .col-message p {
     background-color: white;
-    color: #0F1015;
+    color: #008BDE;
     text-align: justify;
 }
 
@@ -122,9 +122,11 @@ p {
     width: 250px;
     margin-left: -200px;
     margin-right: 200px;
+    border-radius: 15px;
 }
 
 .row-visi {
+    align-items: center;
     padding: 30px;
     display: flex;
     background-color: #008BDE;
@@ -152,4 +154,34 @@ p {
     color: white;
     background-color: #008BDE;
     text-align: center;
+}
+
+.teacher h1 {
+    color: #008BDE;
+    text-align: center;
+    margin: 20px;
+}
+
+.row-teacher {
+    justify-content: center;
+    display: flex;
+}
+
+.col-teacher {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.col-teacher img {
+    width: 120px;
+    border-radius: 15px;
+}
+
+.col-teacher p {
+    padding-top: 10px;
+    text-align: center;
+    width: 120px;
+    background-color: white;
+    color: #008BDE;
 }
