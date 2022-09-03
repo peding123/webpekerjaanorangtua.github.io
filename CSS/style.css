@@ -160,7 +160,8 @@ p {
 .teacher h1 {
     color: #008BDE;
     text-align: center;
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .row-teacher {
@@ -169,6 +170,7 @@ p {
 }
 
 .col-teacher {
+    margin-top: 30px;
     margin: 10px;
     padding: 10px;
     border-radius: 15px;
@@ -186,4 +188,108 @@ p {
     background-color: white;
     color: #008BDE;
     font-weight: bold;
+}
+
+.activity h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #008BDE;
+    margin-top: 40px;
+}
+
+.row-activity {
+    justify-content: center;
+    display: flex;
+}
+
+.col-activity {
+    margin: 3px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.col-activity img {
+    width: 300px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.col-activity p {
+    text-align: center;
+    background-color: #008BDE;
+    color: white;
+    padding: 20px;
+    margin-top: -3px;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.kontak {
+    color: #008BDE;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.form-kontak {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #008BDE;
+    outline: none;
+}
+
+.row-form {
+    margin: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.col-form h3 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #008BDE;
+}
+
+.col-form,
+.form-kontak h3 {
+    margin: 10px;
+    text-align: end;
+}
+
+.btn-kirim {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 46%;
+    padding-right: 46%;
+    background-color: white;
+    color: #008BDE;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-kirim:hover {
+    cursor: pointer;
+    background-color: #008BDE;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer p {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #008BDE;
+    color: white;
+    margin-top: 30px;
 }
