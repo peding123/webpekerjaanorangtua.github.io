@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
@@ -53,8 +53,20 @@ li a:hover {
     transition: .3s ease-in-out;
 }
 
-.banner img {
-    width: 100%;
+.banner {
+    margin-bottom: -100px;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../IMG/banner.jpg);
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    background: none;
+    color: white;
+    float: right;
+    margin-top: 200px;
+    margin-right: 40px;
 }
 
 .row {
@@ -63,6 +75,7 @@ li a:hover {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
+    background: none;
 }
 
 .col h1,
@@ -201,24 +214,29 @@ p {
 }
 
 
-.activity h1 {
+.activity {
     text-align: center;
-    margin-bottom: 20px;
-    color: #008BDE;
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+    margin-top: 20px;
+    background-color: #008BDE;
 }
 
 .row-activity {
     justify-content: center;
     display: flex;
+    background-color: #008BDE;
 }
 
 .col-activity {
     margin: 3px;
     padding: 5px;
     margin-top: 20px;
+    margin-bottom: 25px;
     width: 300px;
     transition: transform .2s;
+    background-color: #008BDE;
 }
 
 .col-activity:hover {
@@ -233,8 +251,8 @@ p {
 
 .col-activity p {
     text-align: center;
-    background-color: #008BDE;
-    color: white;
+    background-color: white;
+    color: #008BDE;
     padding: 20px;
     margin-top: -3px;
     text-align: center;
@@ -308,4 +326,7 @@ p {
     background-color: #008BDE;
     color: white;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 500px) {
 }
