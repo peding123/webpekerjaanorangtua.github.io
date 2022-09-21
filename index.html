@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/style.css">
     <title>RA Nurul Iman</title>
 </head>
@@ -26,9 +23,13 @@
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Kontak</a></li>
             </ul>
+            <form class="search-form">
+                <input type="text" placeholder="Search" class="search">
+                <button class="btn-search">Search</button>
+            </form>
         </div>
         <div class="banner">
-            <h1>Welcome to our page</h1>
+            <h1>Raudhatul Athfal Nurul Iman <br>Taman Angsoka Permai</h1>
         </div>
         <div class="row">
             <div class="col">
@@ -91,6 +92,11 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, quas error. Aspernatur consequatur
                     repudiandae voluptatibus provident maxime aut repellendus? Fuga.</p>
             </div>
+            <div class="col-tujuan">
+                <h1>Tujuan</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, quas error. Aspernatur consequatur
+                    repudiandae voluptatibus provident maxime aut repellendus? Fuga.</p>
+            </div>
         </div>
         <div class="teacher">
             <h1>Guru Guru kami</h1>
@@ -135,25 +141,41 @@
                     dolorum provident, eligendi cum eius sed!</p>
             </div>
         </div>
-        <div class="kontak">
-            <h1>Hubungi kami</h1>
-        </div>
-        <div class="row-form">
-            <div class="col-form">
-                <h3>Nama Lengkap</h3>
-                <input type="text" name="nama" class="form-kontak">
-                <h3>Email</h3>
-                <input type="text" name="email" class="form-kontak">
-                <h3>Pesan</h3>
-                <textarea name="pesan" class="form-kontak" cols="30" rows="5"></textarea>
-                <button class="btn-kirim">Kirim</button>
+        <div id="nav-kontak">
+            <div class="kontak">
+                <h1>Hubungi kami</h1>
+            </div>
+            <div class="row-form">
+                <div class="col-form">
+                    <h3>Nama Lengkap</h3>
+                    <input type="text" name="nama" class="form-kontak">
+                    <h3>Email</h3>
+                    <input type="text" name="email" class="form-kontak">
+                    <h3>Pesan</h3>
+                    <textarea name="pesan" class="form-kontak" cols="30" rows="5"></textarea>
+                    <button class="btn-kirim">Kirim</button>
+                </div>
             </div>
         </div>
-        <div class="footer">
-            <p>©Copyright 2022 by Ferdiansyah. All right reserved.</p>
-        </div>
+        <footer class="row-footer">
+            <div class="col-footer">
+                <h1>RA Nurul Iman</h1>
+                <p>Taman Ansoka Permai</p>
+                <p class="cr">©Copyright 2022 by Ferdiansyah. All right reserved.</p>
+            </div>
+            <div class="col-footer">
+                <h2>Menu</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Fasilitas</li>
+                    <li>Karya</li>
+                    <li>Gallery</li>
+                    <li>Kontak</li>
+                </ul>
+            </div>
+        </footer>
     </div>
-
 </body>
 
 </html>
