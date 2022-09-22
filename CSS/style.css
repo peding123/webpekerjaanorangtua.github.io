@@ -19,7 +19,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     margin: 0 auto;
     width: 100%;
@@ -61,22 +61,11 @@ body {
 }
 
 .search {
-    border: solid #008BDE;
-    padding: 7px;
-    font-size: 11px;
-    border-radius: 5px 0 0 5px;
-}
-
-.search-form button {
-    float: right;
-    background-color: #008BDE;
-    color: white;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    position: relative;
-    padding: 7px;
-    border: none;
-    font-size: 16px;
+    border: 2px solid #008BDE;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline-color: #008BDE;
 }
 
 .banner {
@@ -289,10 +278,15 @@ p {
 }
 
 .form-kontak {
+    font-size: 2em;
     width: 100%;
-    border: none;
-    border-bottom: 2px solid #008BDE;
-    outline: none;
+    outline-color: #008BDE;
+    border: 2px solid #008BDE;
+    border-radius: 10px;
+}
+
+input, select, textarea {
+    color: #008BDE;
 }
 
 .row-form {
@@ -336,12 +330,20 @@ p {
 .row-footer {
     background-color: #008BDE;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 80px;
 }
 
 .col-footer {
     padding-top: 30px;
+    background-color: #008BDE;
+}
+
+.fa-brands {
+    padding: 18px;
+    font-size: 3em;
+    text-align: right;
+    color: white;
     background-color: #008BDE;
 }
 
@@ -357,6 +359,7 @@ p {
     margin-left: 20px;
     padding-top: 20px;
     color: white;
+    font-size: 1.2em;
 }
 
 .col-footer h2 {
