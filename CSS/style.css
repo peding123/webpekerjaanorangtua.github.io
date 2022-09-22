@@ -340,24 +340,15 @@ input, select, textarea {
 }
 
 .fa-brands {
-    padding: 18px;
+    padding: 5px;
     font-size: 3em;
     text-align: right;
     color: white;
     background-color: #008BDE;
 }
 
-.col-footer h1 {
-    background-color: #008BDE;
-    border-bottom: 2px solid white;
-    margin-left: 20px;
-    color: white;
-}
-
 .col-footer p {
     background-color: #008BDE;
-    margin-left: 20px;
-    padding-top: 20px;
     color: white;
     font-size: 1.2em;
 }
@@ -366,7 +357,7 @@ input, select, textarea {
     margin-bottom: 20px;
     background-color: #008BDE;
     border-bottom: 2px solid white;
-    text-align: right;
+    text-align: left;
     font-size: 25px;
     margin-right: 20px;
     color: white;
@@ -382,9 +373,8 @@ input, select, textarea {
     cursor: pointer;
     opacity: .6;
     color: white;
-    margin-right: 20px;
     list-style: none;
-    text-align: right;
+    text-align: left;
 }
 
 .col-footer li:hover {
