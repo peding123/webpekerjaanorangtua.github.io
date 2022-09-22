@@ -390,9 +390,3 @@ input, select, textarea {
 .col-footer li:hover {
     opacity: 1;
 }
-
-.cr {
-    text-align: center;
-    background-color: #008BDE;
-    margin-top: 75px;
-}
